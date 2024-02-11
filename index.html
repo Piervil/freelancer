@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/3378/3378232.png">
+    <!-- Link CSS -->
+		<link rel="stylesheet" href="css/styles.css" />
+		<!-- Font Awesome -->
+		<script src="https://kit.fontawesome.com/1444685f3d.js" crossorigin="anonymous"></script>
+    <title>Sitio Web Freelancer</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Inter:wght@800;900&family=Raleway:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+		<header class="header">
+			<a class="header__logo" href="index.html"><img src="https://cdn-icons-png.flaticon.com/128/3378/3378188.png" alt="logo image"></a>
+			<nav class="navbar">
+				<ul class="navbar__menu">
+					<li><a class="list__item" href="index.html">Inicio</a></li>
+					<li><a class="list__item" href="#service">Sobre Mi</a></li>
+					<li><a class="list__item" href="">Clientes</a></li>
+					<li><a class="list__item" href="#contacto">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<!-- SECTION HERO -->
+			<section class="hero">
+				<div class="container">
+					<div class="hero__info">
+						<h1 class="hero__title">Diseño y Desarrollo Web Freelancer</h1>
+						<div class="hero__location">
+							<i class="fa-solid fa-location-dot"></i>
+							<p class="hero__text">Temuco, Chile</p>
+						</div>
+						<button class="btn">Contactar</button>
+					</div>
+				</div>
+			</section>
+			<!-- SECTION SERVICE -->
+			<section class="service" id="service">
+				<h2 class="service__title">Mis Servicios</h2>
+				<div class="container">
+					<div class="service__card">
+						<div class="service__info">
+							<i class="fa-solid fa-laptop-code"></i>
+							<h3 class="service__text">Diseño Web</h3>
+							<p class="service__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum adipisci nisi corporis eos sunt deserunt quae sed nesciunt quo quisquam eius quis ipsum dolore, error ipsa alias et esse?</p>
+						</div>
+						<div class="service__info">
+							<i class="fa-solid fa-mobile-screen"></i>
+							<h3 class="service__text">Aplicación Movil</h3>
+							<p class="service__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum adipisci nisi corporis eos sunt deserunt quae sed nesciunt quo quisquam eius quis ipsum dolore, error ipsa alias et esse?</p>
+						</div>
+						<div class="service__info">
+							<i class="fa-solid fa-store"></i>
+							<h3 class="service__text">Ecommerce</h3>
+							<p class="service__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab voluptatum adipisci nisi corporis eos sunt deserunt quae sed nesciunt quo quisquam eius quis ipsum dolore, error ipsa alias et esse?</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- SECTION CONTACT -->
+			<section class="contacto" id="contacto">
+				<h2 class="contacto__title">Contacto</h2>
+				<form action="" class="form">
+					<p class="form__text">Contactarnos llenando todos los campos</p>
+					<input class="form__dato" type="text" placeholder="Nombre Completo" required>
+					<input class="form__dato" type="number" placeholder="Tu teléfono">
+					<input class="form__dato" type="email" placeholder="Tu email" required>
+					<textarea class="form__message" name="" id="" cols="30" rows="10" placeholder="Tu mensaje..."></textarea>
+					<input class="form__btn btn" type="submit" value="Enviar">
+				</form>
+			</section>
+		</main>
+		<footer class="footer">
+			<p class="footer__text">©2024 Todos los derechos reservados.</p>
+		</footer>
+	</body>
+</html>
