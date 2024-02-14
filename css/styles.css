@@ -234,6 +234,7 @@ img {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 714px) {
+	/* SECTION HEADER */
 .header {
 	flex-direction: column;
 }
@@ -250,5 +251,17 @@ img {
 .navbar__menu {
 	width: 900px;
 	padding: .5rem 2rem;
+}
+
+.list__item {
+	padding: 0;
+}
+
+/* SECTION SERVICE */
+.service__info {
+	width: 30rem;
+	min-height: 16rem;
+	padding: 2rem;
+	margin-bottom: 1rem;
 }
 }
