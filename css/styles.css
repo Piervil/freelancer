@@ -18,6 +18,7 @@ html {
 	font-size: 62.5%;
 	scroll-behavior: smooth;
 	scroll-padding-top: 5rem;
+	scroll-snap-type: Y mandatory;
 }
 
 body {
@@ -94,6 +95,8 @@ img {
 	background-repeat: no-repeat;
 	background-position: center;
 	color: var(--color-white);
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
 }
 
 .hero__title {
@@ -133,7 +136,8 @@ img {
 /* SECTION SERVICE */
 .service {
 	padding-top: 5rem;
-	/* text-align: center; */
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
 }
 
 .service__title {
@@ -181,6 +185,8 @@ img {
 /* SECTION CONTACT */
 .contacto {
 	padding-top: 5rem;
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
 }
 
 .contacto__title {
@@ -229,6 +235,8 @@ img {
 .footer {
 	padding: 2rem 0;
 	text-align: center;
+	scroll-snap-align: center;
+	scroll-snap-stop: always;
 }
 
 /* MEDIA QUERIES */
